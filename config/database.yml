@@ -9,7 +9,7 @@ development:
   database: blogtest_development
   pool: 5
   username: blogtest
-  password: 
+  password: blogtest
   
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -20,7 +20,7 @@ test:
   database: blogtest_test
   pool: 5
   username: blogtest
-  password: 
+  password: blogtest
 
 production:
   adapter: postgresql
@@ -28,4 +28,4 @@ production:
   database: blogtest_production
   pool: 5
   username: blogtest
-  password: 
+  password: blogtest
