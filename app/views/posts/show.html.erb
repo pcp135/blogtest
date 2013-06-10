@@ -16,7 +16,7 @@
 </p>
 
 <h2>Comments</h2>
-<%= render @posts.comments %>
+<%= render @post.comments %>
 
 <h2>Add a comment:</h2>
 <%= form_for([@post, @post.comments.build]) do |f| %>
